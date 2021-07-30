@@ -9,8 +9,8 @@
 #include <util/eu_dst.h>
 #define MYDST usa_dst //Daylight Saving Time zone: change if in the EU to eu_dst
 
-const float lat = 42.7335157; //degrees latitude N is positive
-const float lon = -73.6876147; //degrees longitude E is positive
+const float lat = 41.76; //degrees latitude N is positive
+const float lon = -73.1; //degrees longitude E is positive
 const int time_zone = -5;       //EST (for NY) = -5, Don't asjust for daylight saving time here
 
 const int CLOCK_INTERRUPT_PIN = 2; //must be a pin that works with interrupts
